@@ -1,0 +1,159 @@
+/* Resetowanie domyślnych styli */
+    body {
+        width: 100%;
+        height: 100%;
+        background-image: url("https://www.miss.at/wp-content/uploads/2020/10/Mars-so-gut-zu-sehen-wie-schon-lange-nicht-mehr-scaled.jpg");
+    }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+
+  }
+  /* Stylowanie nagłówka */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    height: 10em;
+  }
+  
+  .container {
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: -5px 5px 20px gray;
+    border-radius: 0.4em;
+    padding: 0 4em;
+    background-color: antiquewhite;
+  }
+  
+  .container p, .container math {
+    margin: 1em 0;
+    font-size: 25px;
+  }
+  header h1 {
+    float: left;
+  }
+  
+  nav ul {
+    float: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  li {
+    font-size: 25px;
+    padding: 0.5em;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 150px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Stylowanie głównego bloku */
+  main {
+    padding: 50px 0;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .image {
+    float: right;
+    width: 25%;
+  }
+
+  #mountain {
+    float: right;
+    width: 50%;
+    margin: 1em;
+  }
+
+  .tableMath {
+
+    border-radius: 1em;
+    font-size: 30px;
+
+  }
+
+  .tableMath td {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 1em;
+    border-radius: 0em;
+
+  }
+
+  .titles th {
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 0;
+    padding: 1em;
+  }
+  .titles th:last-child {
+    border-radius: 0 1em 0  0;
+  }
+  .titles th:first-child{
+    border-radius: 1em 0 0 0;
+  } 
+
+  .container h1 {
+    float: left;
+    width: 50%;
+  }
+
+  .container .titul {
+    float: left;
+    width: 30%;
+  }
+
+  .container .titul li:hover {
+    text-shadow: 5px 5px 20px white;
+  }
+  img {
+    width: 70%;
+  }
+  .ex:hover {
+    scale: 1.8;
+    transition: ease 1s;
+  }
+
+  .ex {
+    transition: ease 1s;
+  }
+
+  h2 {
+    text-align: left;
+  }
